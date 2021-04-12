@@ -1,0 +1,204 @@
+/* font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+/* reset css  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif  !important;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px ;
+    margin-bottom: 35px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #ec4c7a;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 2px solid #ec4c7a;
+    transition: all 0.5s ease;
+
+}
+.btn:hover{
+    color: #ec4c7a;
+    background-color: transparent;
+    border: 2px solid #ec4c7a;
+}
+
+
+
+/* header section start */
+.profile{
+    background-image: url("img/header-bg.png");
+   height: 500px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+.profile-about,.profile-img{
+    width: 35%;
+    margin-left: 10%;
+    padding: 2%;
+    float: left;
+}
+.profile-img img{
+    width: 80%;
+}
+.profile .profile-about{
+    margin-top: 90px;
+}
+.profile .profile-about h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.profile .profile-about h1{
+    color: #ec4c7a;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+
+/* header section end */
+
+
+/* biography section start */
+
+.biography{
+background-image: url("img/biography-bg.png");
+height: 600px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+
+.biography-img,.biography-text{
+    width: 35%;
+    margin-left: 10%;
+    padding-left: 2%;
+    float: left;
+    padding-top: 50px;
+}
+.biography-img img{
+    width: 80%;
+}
+.biography-text{
+    margin-top: 100px;
+}
+.biography-text h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ec4c7a;
+}
+
+/* biography section end */
+
+/* latest work section start */
+.leatest-work{
+    margin-top: 80px;
+}
+.leatest-work h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 75px;
+    color: #ec4c7a;
+}
+
+.image{
+    margin-left: 150px;
+    background-image: url("img/latest-work-bg.png");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+ 
+}
+.img img{
+    width: 100%;
+    transition: all .3s ease;
+}
+.img img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* latest work section end */
+
+/* client review start */
+.client{
+    text-align: center;
+    padding-top: 100px;
+}
+.client p{
+    text-align: center !important;
+    width: 500px;
+    margin: auto;
+}
+.client h1{
+    font-size: 40px;
+    color: #ec4c7a;
+    margin-bottom: 40px;
+}
+.client .name{
+    margin-bottom: 5px;
+    color: gray;
+}
+.client .office-name{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.client .review{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.client div{
+    width: 850px;
+    padding: 60px 25px 60px 25px;
+    color:white;
+    margin: auto;
+    border-radius: 10px;
+    background-image: linear-gradient(10deg,#ec4f92,#ec4c76);
+    margin-bottom: 150px;
+}
+.client div h4{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+/* client review end */
+
+
+/* footer  */
+
+footer{
+    text-align: center;
+    height: 50px;
+    background-color: rgb(142, 204, 204);
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 25px 0px 10px 0px;
+}
